@@ -1,4 +1,4 @@
-#render
+# render
 Convention based script to render HTML from Markdown.
 
 ## Setup
@@ -36,3 +36,6 @@ github = mygithub
 
 ## Running the venv
 `source .venv/bin/activate`
+
+## Running
+`python3 generate.py`
