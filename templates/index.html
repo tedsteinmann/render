@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    $head$
+    <link rel="alternate" type="application/ld+json" href="schema.json">
+</head>
+<body>
+    <nav>
+        $navigation$
+    </nav>
+    <main>
+        <section id="index">
+            <div class="container">
+                <header>
+                    <h1>$title$</h1>
+                </header>
+            </div>
+            <div class="container">
+                $body$
+                <div id="list-items">
+                    <!-- List items will be added here if schema.json exists -->
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        $footer$
+    </footer>
+
+    <!-- Include the external JavaScript file -->
+    <script src="/static/javascript/index.js"></script>
+</body>
+</html>
