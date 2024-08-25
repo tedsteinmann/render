@@ -1,4 +1,4 @@
-# render
+# renderer
 Convention based script to render HTML from Markdown.
 
 ## Setup
